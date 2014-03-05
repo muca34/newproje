@@ -26,8 +26,8 @@ namespace Komiks.Web.Controllers
       
         public ActionResult Index()
         {
-            kTags.TagId = 11;
-            kTags.TagTitle = "Gençlerbirliği";
+            kTags.TagId = 10;
+            kTags.TagTitle = "EskişehirSpor";
             kTags.TagDelete = true;
             service.UpdateTag(kTags);
             var taglar = service.GetTags();
